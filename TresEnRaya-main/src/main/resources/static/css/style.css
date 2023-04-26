@@ -19,20 +19,20 @@
 }
 
 body {
-    background: #A5DAD2;
+    background: #0f1640;
     font-family: Quicksand, san-serif;
 }
 
 .bgWhite {
-    background: #F5F2F5;
+    background: #0f1640;
 }
 
 .colorWhite {
-    color: #F5F2F5 !important;
+    color: #0f1640 !important;
 }
 
 .bgDark {
-    background: #516D66;
+    background: #0f1640;
 }
 
 .colorDark {
@@ -40,7 +40,7 @@ body {
 }
 
 .bgRed {
-    background: #F286A0;
+    background: #0f1640;
 }
 
 .colorRed {
@@ -94,4 +94,49 @@ body {
 
 .scoreBoard span.active {
     border-bottom: 4px solid #F286A0;
+}
+
+
+
+
+
+
+#hola {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+/*Neon*/
+#hola {
+  text-align: center;
+  font-size: 7em;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 1;
+  text-decoration: none;
+  color: #fff;
+}
+
+#hola {
+  font-family: Monoton;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+@keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00f9,
+        0 0 70px #ff00f9, 0 0 80px #ff00f9, 0 0 100px #ff00f9, 0 0 150px #ff00f9;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00f9,
+        0 0 35px #ff00f9, 0 0 40px #ff00f9, 0 0 50px #ff00f9, 0 0 75px #ff00f9;
+    }
+  }
+/*Make stuff responsive*/
+
+@media (max-width: 650px) {
+  p {
+    font-size: 3.5em;
+  }
 }
