@@ -137,8 +137,12 @@ class Board {
     }
 
     doDraw() {
-    	alert("Draw!");
-        this.lowlightCells();
+        
+        document.getElementById("draw").removeAttribute("hidden");
+        document.getElementById("reset").removeAttribute("hidden");
+        this.disableAll();
+        this.highlightCells(pos);
+    
     }
 
     highlightScoreboard(playerId) {
