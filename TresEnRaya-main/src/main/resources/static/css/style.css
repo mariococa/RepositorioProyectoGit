@@ -29,7 +29,7 @@ body {
 }
 
 .colorWhite {
-    color: #01fdfe !important;
+    color: #01fdfe ;
     animation: neon2 1.5s ease-in-out infinite alternate;
 }
 
@@ -55,6 +55,7 @@ body {
 
 .registerName {
     margin-top: 100px;
+    
 }
 
 .center {
@@ -150,4 +151,69 @@ body {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00f9,
         0 0 35px #ff00f9, 0 0 40px #ff00f9, 0 0 50px #ff00f9, 0 0 75px #ff00f9;
     }
+}
+
+.draw {
+    padding: 2rem;
+    display: none;
+    gap: 4rem;
+    text-align: center;
+    font-size: 100px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Monoton;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+    position: absolute;
+    margin-bottom: 10%;
+    margin-top: 6%;
+    
+}
+
+.button_reset {
+    padding: 1rem;
+    display: none;
+    gap: 4rem;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1;
+    text-decoration: none;
+    color: #fff;
+    font-family: Monoton;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+    background-color: transparent;
+    border-radius: 2em;
+    position: absolute;
+    margin-top: 18%;
+    border-width: 3px;
+    border-style: solid;
+
+}
+
+.fondo{
+
+    height:100%;
+    width: 100%;
+    display: none;
+    background-color: #0f1640;
+    position: absolute;
+
+}
+
+.ganar{
+
+    padding: 2rem;
+    display: flex;
+    gap: 4rem;
+    text-align: center;
+    font-size: 100px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Monoton;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+    position: absolute;
+    margin-bottom: 10%;
+    margin-top: 6%;
+
 }

@@ -130,7 +130,10 @@ class Board {
     		looser = this.players[0].name;
     	}
     	
-    	alert(winner+" wins! "+looser+" looses.");
+        const ganar= document.getElementById("ganar")
+        ganar.innerHTML= winner + " HAS WIN!"
+        document.getElementById("reset").style.display="flex";
+        document.getElementById("fondo").style.display="flex";
     	
     	this.disableAll();
         this.highlightCells(pos);
@@ -138,8 +141,9 @@ class Board {
 
     doDraw() {
         
-        document.getElementById("draw").removeAttribute("hidden");
-        document.getElementById("reset").removeAttribute("hidden");
+        document.getElementById("draw").style.display="flex";
+        document.getElementById("reset").style.display="flex";
+        document.getElementById("fondo").style.display="flex";
         this.disableAll();
         this.highlightCells(pos);
     
@@ -194,3 +198,4 @@ class Board {
         }    	
     }
 }
+
