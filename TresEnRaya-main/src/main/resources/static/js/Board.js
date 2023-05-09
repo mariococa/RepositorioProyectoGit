@@ -199,3 +199,10 @@ class Board {
     }
 }
 
+function jin(){
+
+    location.reload()
+    document.getElementById("draw").style.display="none";
+    document.getElementById("reset").style.display="none";
+    document.getElementById("fondo").style.display="none";
+}
